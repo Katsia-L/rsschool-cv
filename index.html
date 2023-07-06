@@ -1,12 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kate Lukyanava</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  
+  <header class="wrapper">
+    <img class="header-photo" src="img/photo.jpg" alt="photo cv">
+    <div class="header-content-text">
+      <nav>
+        <ul>
+          <li class="nav-item">
+            <a href="#about">ABOUT MY</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contacts">CONTACTS</a>
+          </li>
+          <li class="nav-item">
+            <a href="#skills">SKILLS</a>
+          </li>
+          <li class="nav-item">
+            <a href="#projects">PROJECTS</a>
+          </li>
+        </ul>
+      </nav>
+      <h1>KATE LUKYANAVA</h1>
+      <h2>JUNIOR FRONTEND DEVELOPER</h2>
+    </div>
+  </header>
+  <main>
+    <div class="main-content-top">
+      <div class="left-side">
+        <section class="contacts" id="contacts">
+          <h3>CONTACTS</h3>
+          <hr class="hr-horizont">
+          <ul>
+            <li>Location: Gdansk, Poland</li>
+            <li>E-mail: <a href="mailto:kate.lukyanava@gmail.com">kate.lukyanava@gmail.com</a></li>
+            <li>GitHub: <a href="https://github.com/katsia-l" target="_blank">katsia-l</a></li>
+            <li>Telegram: <a href="https://t.me/KateLukyanava" target="_blank">@KateLukyanava</a></li>
+          </ul>
+        </section>
+        <section class="skills" id="skills">
+          <h3>SKILLS</h3>
+          <hr class="hr-horizont">
+          <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JS Basic</li>
+            <li>Git, GitHub</li>
+            <li>Figma</li>
+          </ul>
+        </section>
+        <section class="education" id="education">
+          <h3>EDUCATION</h3>
+          <hr class="hr-horizont">
+          <ul>
+            <li>Belarusian State University | 2015-2019</li>
+            <li>IPMA ICR4 and IPMA ICB4 <em>(UPMA, IPMA level D)</em> | 2019</li>
+            <li>EPAM UpSkill IT Fundamentals | 2022</li>
+            <li>RS Schools JS. FRONT-END (in progress)</li>
+          </ul>
+        </section>
+        <section class="languages" id="languages">
+          <h3>LANGUAGES</h3>
+          <hr class="hr-horizont">
+          <ul>
+            <li>Russian: native</li>
+            <li>English: B1</li>
+          </ul>
+        </section>
+      </div>
+      <div class="right-side">
+        <section class="about" id="about">
+          <h3>ABOUT MY</h3>
+          <hr class="hr-horizont">
+          <p>I worked at Belarusian National Technical University. I was involved in the organization of distance learning. I have experience in creating and administering Joomla and WordPress sites.
+          </p>
+          <p>Web development is interesting to me because I see the result of my work. Right now I'm learning CSS, HTML, JS.
+          </p>
+          <p>I have a passion for this job i believe that passion translates into result.
+          </p>
+        </section>
+        <section>
+          <h3>CODE EXAMPLE</h3>
+          <hr class="hr-horizont">
+          <h4>KATA from CODEWARS: Sum of positive</h4>
+          <p>DESCRIPTION:</p>
+          <p>You get an array of numbers, return the sum of all of the positives ones.<br>
+          Example [1,-4,7,12] => 1 + 7 + 12 = 20<br>
+          Note: if there is nothing to sum, the sum is default to 0.</p>
+          <pre>
+            <code>
+              function positiveSum(arr) {
+                let sum = 0;
+                for (let i = 0; i &lt; arr.length; i++) {
+                  if (arr[i] &gt; 0) {
+                    sum += arr[i];
+                    }
+                }
+                return sum;
+              }
+            </code>
+          </pre>
+        </section>
+      </div>
+    </div>
+    <section class="projects" id="projects">
+      <h3>PROJECTS </h3>
+      <hr class="hr-horizont">
+      <div class="project-card">
+        <div class="card">
+          <div class="card-text">
+            <a class="project-card-title" href="https://katsia-l.github.io/Shelter/pages/main/" target="_blank">
+              <h4>Shelter</h4>
+            </a>
+            <p>Pixel Perfect responsive design with JS slider</p>
+          </div>
+          <img src="img/project1.png" alt="Project Shelter">
+        </div>
+      </div>
+    </section>
+  </main>
+  <hr class="hr-horizont">
+  <footer class="footer">
+    <a href="https://github.com/Katsia-L" target="_blank"><img src="img/github.png" height="40" alt="GitHub link"></a>
+    <p><strong>JULY 2023</strong></p>
+    <a href="https://rs.school/js/" target="_blank"><img src="img/rs.png" height="40" alt="RS School Logo link"></a>
+  </footer>
 </body>
 </html>
