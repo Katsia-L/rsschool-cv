@@ -1,1 +1,151 @@
+:root {
+  --color-dark-1: #010201;
+  --color-dark-2: #4b4764;
+  --color-green: #7BBB00;
+}
 
+body{
+  font-family: 'Raleway', sans-serif;
+  margin: 0px auto;
+  width:  1280px;
+  box-shadow: 0px 0px 14px 0px var(--color-dark-2);
+}
+
+a {
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.wrapper {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+header {
+  display: flex;
+  gap: 100px;
+}
+
+
+.header-photo {
+  width: 350px;
+}
+
+.header-content-text {
+  width: 750px;
+}
+
+nav ul{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-item {
+  list-style: none;
+  font-size: 28px;
+}
+
+.nav-item a {
+  color: var(--color-dark-1);
+}
+
+.nav-item a:hover {
+  color: var(--color-green);
+  transition: color 0.3s;
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 64px;
+  margin-top: 80px;
+}
+
+h2 {
+  font-size: 32px;
+  color: var(--color-green);
+}
+
+h3 {
+  font-size: 28px;
+  margin: 40px 0 0;
+}
+
+h4 {
+  font-size: 24px;
+}
+
+main {
+  margin: 0px 40px;
+}
+
+.main-content-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-side {
+  width: 350px;
+}
+
+li {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+li::marker {
+  color: var(--color-green);
+}
+
+.contacts a {
+  color: var(--color-green);
+}
+
+.contacts a:hover {
+  font-weight: 700;
+}
+
+.right-side {
+  width: 750px;
+}
+
+.about p {
+  padding-left: 25px;
+}
+
+.hr-horizont {
+	height: 3px;
+  border: none;
+	background: linear-gradient(90deg, var(--color-green), var(--color-dark-2));
+}
+
+.project-card {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 60px;
+}
+
+.project-card-title {
+  color: var(--color-dark-1);
+}
+
+.project-card-title:hover {
+  color: var(--color-green);
+}
+
+.card-text p {
+  margin-bottom: 20px;
+}
+
+pre {
+  background-color: #4b476429;
+}
+
+footer {
+  display: flex;
+  padding: 10px 40px;
+  align-items: center;
+  justify-content: space-between;
+}
