@@ -46,7 +46,7 @@ function positiveSum(arr) {
 *   Belarusian State University
 *   IPMA ICR4 and IPMA ICB4
     *(UPMA, IPMA level D)*
-*   EPAM UpSkill IT Fundamentals | 2022
+*   EPAM UpSkill IT Fundamentals
 *   RS Schools JS. FRONT-END (in progress)
     
 ## Languages
