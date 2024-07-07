@@ -123,7 +123,7 @@ li::marker {
 
 .project-card {
   display: flex;
-  justify-content: space-between;
+  gap: 40px;
   margin: 0 0 60px;
 }
 
@@ -131,12 +131,29 @@ li::marker {
   color: var(--color-dark-1);
 }
 
-.project-card-title:hover {
+.card:hover .project-card-title {
   color: var(--color-green);
 }
 
 .card-text p {
   margin-bottom: 20px;
+}
+
+.project-img {
+  height: 210px;
+  width: 350px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.card img {
+  width: 350px;
+  transition: 0.7s;
+}
+
+.card:hover img {
+  transform: scale(1.2);
 }
 
 pre {
